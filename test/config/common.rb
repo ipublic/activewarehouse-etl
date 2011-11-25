@@ -17,7 +17,7 @@ def common_gemfile(rails_version)
   gem "flexmock", "0.9.0"
 
   gem "mysql", "2.8.1"
-  gem "pg", "0.11.0"
+  # gem "pg", "0.11.0"
   
   gem "nokogiri", "1.4.4"
   
