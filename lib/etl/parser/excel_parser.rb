@@ -44,7 +44,7 @@ module ETL
                 lines_skipped += 1
                 next
               end
-              validate_row(raw_row, line, file)
+              # validate_row(raw_row, line, file)
               raw_row.each_with_index do |value, index|
                 f = fields[index]
                 row[f.name] = value
